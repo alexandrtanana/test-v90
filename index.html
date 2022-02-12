@@ -8,47 +8,75 @@
     <title>Fogex</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="bootstrap.css"> -->
 </head>
 
 <body class="page">
     <header class="header">
-        <div class="container">
-            <div class="contacts">
-                <div class="contacts-logo">
-                    <img class="contacts-logo__img" src="img/icon/logo.svg" width="98" height="34" alt="Логотип">
-                    <p class="contacts-logo__desc">Европейские трубы и металлопрокат</p>
+        <div class="header__top">
+            <div class="container">
+                <div class="contacts">
+                    <div class="contacts-logo">
+                        <img class="contacts-logo__img" src="img/icon/logo.svg" width="98" height="34" alt="Логотип">
+                        <div class="contacts-logo__svg">
+                            <svg width="1" height="28" viewBox="0 0 1 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="1" height="28" fill="#002946" />
+                            </svg>
+                        </div>
+                        <p class="contacts-logo__desc">Европейские трубы и металлопрокат</p>
+                    </div>
+                    <div class="contacts-contacts">
+                        <a class="contacts-contacts__mail" href="mailto:info@s355.ru">info@s355.ru</a>
+                        <div class="contacts-contacts__mobile">
+                            <a class="contacts-contacts__tel" href="tel:+74952411757">+7 (495) 241-17-57</a>
+                            <img class="contacts-contacts__arrow" src="img/icon/arrow.svg" width="10" height="7"
+                                alt="другие номера">
+                        </div>
+                        <button class="contacts-contacts__button">Быстрый заказ</button>
+                    </div>
                 </div>
-                <div class="contacts-contacts">
-                    <a class="contacts-contacts__mail" href="mailto:info@s355.ru">info@s355.ru</a>
-                    <a class="contacts-contacts__tel" href="tel:+74952411757">+7 (495) 241-17-57</a>
-                    <img src="img/icon/arrow.svg" width="10" height="7" alt="другие номера">
-                    <button class="contacts-contacts__button">Быстрый заказ</button>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header-nav">
+                    <div class="header-nav__catalog">
+                        <img class="header-nav__img burger" src="img/icon/burger.svg" width="22" height="16"
+                            alt="Каталог продукции">
+                        <p class="header-nav__desc">Каталог продукции</p>
+                    </div>
+                    <div class="header-nav__menu">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__list"><a class="header-nav__link" href="#">О компании</a></li>
+                            <li class="header-nav__list"><a class="header-nav__link" href="#">База знаний</a></li>
+                            <li class="header-nav__list"><a class="header-nav__link" href="#">Новости</a></li>
+                            <li class="header-nav__list"><a class="header-nav__link" href="#">Доставка</a></li>
+                            <li class="header-nav__list"><a class="header-nav__link" href="#">For suppliers</a></li>
+                            <li class="header-nav__list"><a class="header-nav__link" href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="basket">
+                        <a class="basket-link" href="#"><img class="basket-link__img" src="img/icon/basket.svg"
+                                width="20" height="20" alt="корзина выбраных товаров"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="catalog-nav">
-                <img class="catalog-nav__img burger" src="img/icon/burger.svg" width="22" height="16"
-                    alt="Каталог продукции">
-                <p class="catalog-nav__desc">Каталог продукции</p>
-            </div>
-            <div class="header-nav">
-                <ul class="header-nav__list">
-                    <li class="header-nav__list"><a class="header-nav__link" href="#">О компании</a></li>
-                    <li class="header-nav__list"><a class="header-nav__link" href="#">База знаний</a></li>
-                    <li class="header-nav__list"><a class="header-nav__link" href="#">Новости</a></li>
-                    <li class="header-nav__list"><a class="header-nav__link" href="#">Доставка</a></li>
-                    <li class="header-nav__list"><a class="header-nav__link" href="#">For suppliers</a></li>
-                    <li class="header-nav__list"><a class="header-nav__link" href="#">Контакты</a></li>
-                </ul>
-            </div>
-            <div class="basket">
-                <a class="basket-link" href="#"><img class="basket-link__img" src="img/icon/basket.svg" width="20"
-                        height="20" alt="корзина выбраных товаров"></a>
             </div>
         </div>
     </header>
-    <main>
-
+    <main class="main">
+        <div class="main__background">
+            <div class="main-container">
+                <section class="section-text">
+                    <h1 class="section-text__title">Ведущий Европейский производитель</h1>
+                    <strong class="section-text__subtitle">Поставки строго по спецификации объектов введены в
+                        эксплуатацию</strong>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
 
