@@ -95,18 +95,24 @@
             <p class="header-nav__desc">Каталог продукции</p>
           </div>
           <div class="header-nav__menu">
-            <ul class="header-nav__list">
-              <li class="header-nav__list"><a class="header-nav__link" href="#">О компании</a></li>
-              <li class="header-nav__list"><a class="header-nav__link" href="#">База знаний</a></li>
-              <li class="header-nav__list"><a class="header-nav__link" href="#">Новости</a></li>
-              <li class="header-nav__list"><a class="header-nav__link" href="#">Доставка</a></li>
-              <li class="header-nav__list"><a class="header-nav__link" href="#">For suppliers</a></li>
-              <li class="header-nav__list"><a class="header-nav__link" href="#">Контакты</a></li>
+            <ul class="header-nav__list nav">
+              <li class="header-nav__item"><a class="header-nav__link" href="#">О компании</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">База знаний</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">Новости</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">Доставка</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">For suppliers</a></li>
+              <li class="header-nav__item"><a class="header-nav__link" href="#">Контакты</a></li>
             </ul>
           </div>
           <div class="basket">
             <a class="basket-link" href="#"><img class="basket-link__img" src="img/icon/basket.svg" width="20"
                 height="20" alt="корзина выбраных товаров"></a>
+            <!-- <div class="basket-online"></div> -->
+            <svg class="basket-online" width="14" height="14" viewBox="0 0 14 14" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="7" cy="7" r="5.5" fill="#005A8D" stroke="white" stroke-width="3" />
+            </svg>
+
           </div>
         </div>
       </div>
@@ -262,6 +268,61 @@
         </div>
       </div>
     </div>
+
+    <div class="news">
+      <div class="news__inner">
+        <p class="news__inner-desc">Популярные новости</p>
+        <a class="news__inner-link" href="#">Все новости
+          <img src="img/icon/arrow-projects.svg" width="46" height="8" alt="открыть все новости">
+        </a>
+      </div>
+      <div class="news__container">
+        <div class="news-card">
+          <div class="news-card__container">
+            <p class="news-card__news-text">Пользовательский функционал похож на обычный заказ в онлайн-магазине с
+              пуш-уведомлениями</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-card__container">
+            <div class="news-card__news">
+              <strong class="news-card__news-desc">Крупный комбинат приобрел металлопродукцию</strong>
+              <p class="news-card__news-text">В этом году мы поставляли металлопродукцию для завода по переработке
+                углеводородного сырья</p>
+            </div>
+            <div class="news-card__news-date">
+              <time class="news-card__news-pubdate" datetime="2020-10-01">01.10.2020</time>
+            </div>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-card__container">
+            <div class="news-card__news">
+              <strong class="news-card__news-desc">Металл в один клик: зачем стальные гиганты развивают
+                онлайн-розницу</strong>
+              <p class="news-card__news-text">Пользовательский функционал похож на обычный заказ в онлайн-магазине с
+                пуш-уведомлениями</p>
+            </div>
+            <div class="news-card__news-date">
+              <time class="news-card__news-pubdate" datetime="2020-09-17">17.09.2020</time>
+            </div>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-card__container">
+            <div class="news-card__news">
+              <strong class="news-card__news-desc">Россия с партнерами подготовит ответ на импортные пошлины</strong>
+              <p class="news-card__news-text">Евразийская экономическая комиссия (ЕЭК) начала «специальное защитное
+                расследование» импорта</p>
+            </div>
+            <div class="news-card__news-date">
+              <time class="news-card__news-pubdate" datetime="2020-09-08">08.09.2020</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
   <footer>
 
